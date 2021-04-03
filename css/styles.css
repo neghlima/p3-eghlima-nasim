@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   padding: 10px 0;
 }
 
@@ -28,7 +28,7 @@ h1 {
 
 p,
 ul {
-  font-family: "Sahitya", serif;
+  font-family: "Lora", serif;
 }
 
 p {
@@ -50,27 +50,30 @@ p {
 
 header {
     background: white;
-    padding: 20px;
+    position: fixed;
+    width: 100%;
 }
 
 header nav ul li {
-    display: inline;
+    display: inline-block;
     padding: 0 15px;
 }
 
 header nav a:hover{
-  color: #decce1;
+    color: rgba(54,0,141,04.3);
 }
 
 header nav a {
-     text-decoration: none;
-     background: #0cefd1;
-     color: white;
-     font-weight: bold;
-     text-transform: uppercase;
-     font-size: x-large;
-     position: relative;
-     left: 500px;
+    padding: 15px;
+    text-decoration: none;
+    background: #85f3d999;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+    position: relative;
+    top: -40px;
+    left: 710px;
 }
 
 .logo-container,
@@ -87,5 +90,5 @@ header nav {
 
 .hero-image {
     width: 100%;
-    object-fit: cover
+    object-fit: cover;
 }
