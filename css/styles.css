@@ -26,20 +26,14 @@ h1 {
     text-transform: uppercase;
 }
 
-p,
 ul {
   font-family: "Lora", serif;
 }
 
 p {
+    font-family: "Arimo";
     line-height: 26px;
     margin: 15px 0;
-}
-
-.container {
-    max-width: 900px;
-    margin: 30px auto;
-    padding: 0 15px;
 }
 
 /*=====================
@@ -61,7 +55,7 @@ header nav ul li {
 }
 
 header nav a:hover{
-    color: rgba(54,0,141,04.3);
+    color: #36008d80;
 }
 
 header nav a {
@@ -75,6 +69,7 @@ header nav a {
     position: relative;
     top: -40px;
     left: 640px;
+    border-radius: 5px;
 }
 
 .logo-container,
@@ -94,6 +89,7 @@ header nav {
     object-fit: cover;
     position: relative;
 }
+
 
 .hero-logo {
   position: absolute;
