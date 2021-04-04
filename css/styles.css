@@ -74,7 +74,7 @@ header nav a {
     font-size: 22px;
     position: relative;
     top: -40px;
-    left: 710px;
+    left: 640px;
 }
 
 .logo-container,
@@ -98,5 +98,5 @@ header nav {
 .hero-logo {
   position: absolute;
   top: 20%;
-  right: 22%;
+  right: 15%;
 }
