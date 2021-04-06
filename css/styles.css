@@ -98,3 +98,73 @@ header nav {
   top: 20%;
   right: 15%;
 }
+
+
+/*=====================
+
+  About us page styling
+
+=========================*/
+
+.video-image {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.video-button {
+  box-shadow: 0 -1px 10px;
+  background: #eeeeeebf;
+  padding: 20px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #36008da6;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: inline-block;
+  position: absolute;
+  top: 600px;
+  right: 40px;
+}
+
+
+
+/*=====================
+
+  Footer
+
+=========================*/
+footer {
+    background: #36008d6e;
+    color: #ffffffde;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 760px;
+}
+
+footer a {
+    color: #85f3d9de;
+    font-size: 35px;
+    margin: 0 5px;
+    transition: .3s;
+
+}
+footer a:hover {
+    color: purple;
+    transition: .3s;
+}
+.footer-nav {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.top-link {
+  position: relative;
+  top: 720px;
+  left: 1100px;
+  font-size: larger;
+  color: black;
+}
