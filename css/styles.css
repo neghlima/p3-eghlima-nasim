@@ -21,8 +21,8 @@ h6 {
 }
 
 h1 {
-    font-size: 42px;
-    text-align: center;
+    font-size: 32px;
+    text-align: left;
     text-transform: uppercase;
 }
 
@@ -60,24 +60,33 @@ header nav a:hover{
 }
 
 header nav a {
-    padding: 15px;
-    text-decoration: none;
-    background: #85f3d999;
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 22px;
-    position: relative;
-    top: -40px;
-    left: 640px;
-    border-radius: 5px;
-    transition: .3s;
+  padding: 15px;
+  text-decoration: none;
+  background: #85f3d999;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  border-radius: 5px;
+  transition: .3s;
+  }
+
+header nav {
+  width: 68%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  margin-top: 50px;
+  }
+.logo-container {
+    width: 30%;
+    display: inline-block;
 }
 
 .logo-container,
 header nav {
-    display: inline-block;
-    vertical-align: right;
+
+  vertical-align: right;
 }
 
 /*=====================
@@ -151,36 +160,54 @@ header nav {
 
 =========================*/
 footer {
-    background: #36008d6e;
-    color: #ffffffde;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    top: 760px;
+  background: #36008d6e;
+  display: inline-block;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  position: relative;
+  top:800px;
 }
 
-footer a {
-    color: #85f3d9de;
-    font-size: 35px;
-    margin: 0 5px;
-    transition: .3s;
-
-}
-footer a:hover {
-    color: purple;
-    transition: .3s;
-}
-.footer-nav {
+footer a{
+  font-size: 24px;
+  margin: 0 5px;
+  transition: .3s;
   text-decoration: none;
-  color: white;
+  color: #85f3d9de;
   display: inline-block;
   text-transform: uppercase;
   font-weight: bold;
 }
-.top-link {
-  position: relative;
-  top: 720px;
-  left: 1100px;
-  font-size: larger;
+footer a:hover {
   color: white;
+  transition: .3s;
+}
+
+
+.footer-icon {
+  display: inline-block;
+  width: 19%;
+  font-size: 25px;
+}
+
+footer nav {
+    width: 80%;
+    display: inline-block;
+    text-align: right;
+}
+footer nav a {
+  color: white;
+  transition: .3s;
+}
+
+footer nav a:hover {
+  color: #85f3d999;
+  transition: .3s;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding: 0 15px;
+  font-family: "arimo", sans-serif;
 }

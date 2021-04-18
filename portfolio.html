@@ -15,6 +15,8 @@
 
     <link rel="icon" type="image/png" href="images/favicon-2.png" />
 
+    <script src="https://kit.fontawesome.com/b4f2b5b20f.js" crossorigin="anonymous"></script>
+
   </head>
 
   <body id= "Top">
@@ -36,18 +38,31 @@
 
     <main>
 
-      <section class="portfolio">
 
-        <div class="container">
-        <nav>
-          <ul>
-            <li><a href="#photo-gallery">Photo Gallery</a></li>
-            <li><a href="#graphic-design">Graphic Design</a></li>
-            <li><a href="#web-projects">Web Projects</a></li>
-          </ul>
-        </nav>
-        </div>
-      </section>
+      <div class="container">
+        <section class="portfolio">
+          <div class="photo-gallery">
+            <img src= "images/Portfolio-cover1.png" alt="Camera" title="Camera"/>
+            <a href="#photo-gallery">Photo Gallery</a>
+            </div>
+          </div>
+
+          <div class="graphic-design">
+            <img src= "images/Portfolio-cover2.png" alt="Design" title="Design"/>
+            <a href="#graphic-design">Graphic Design</a>
+            </div>
+          </div>
+
+          <div class="web-projects">
+            <img src= "images/Portfolio-cover3.png" alt="Web Projects" title="Web Projects"/>
+            <a href="#web-projects">Web Projects</a>
+            </div>
+          </div>
+
+
+        </section>
+      </div>
+
 
       <section class="photo-gallery" id=photo-gallery>
         <h1>Photo Gallery:</h1>
@@ -82,23 +97,50 @@
           </div>
 
         </section>
+        <section class="graphic-design" id=graphic-design>
+          <h1>Graphic Design Projects:</h1>
+          <p>Includes an electronic cookbook and non-profit annual report. </p>
 
+          <div class="cover-photos">
+            <img src= "images/Cookbook.png" alt="Cookbook" title="Cookbook"/>
+            </div>
+          <div class="cover-photos">
+            <img src= "images/Annual-report.png" alt="Annual Report" title="Annual Report"/>
+          </div>
+          </section>
+
+        </section>
+        <section class="web-projects" id=web-projects>
+          <h1>Web Projects:</h1>
+          <p>Includes UX (User experience) research papers, inquire for more information. </p>
+
+          <div class="cover-photos">
+            <img src= "images/UX-journal.png" alt="UX Journal" title="UX Journal"/>
+            </div>
+          <div class="cover-photos">
+            <img src= "images/UF-final-report.png" alt="UF Report" title="UF Report"/>
+          </div>
+          <div class="cover-photos">
+            <img src= "images/comp-user-research.png" alt="User Research" title="User Research"/>
+          </div>
+
+          </section>
     </main>
     <footer>
-      <section class="footer-nav">
-      <nav>
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-      </section>
+      <section class="footer-icon">
         <a href="https://www.facebook.com/The-Minted-Girl-110144481157024" target="_blank"><i class="fab fa-facebook"></i></a>
         <a href="https://www.instagram.com/themintedgirl/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </section>
+
+       <nav>
+         <ul class="footer-nav">
+           <li><a href="home.html">Home</a></li>
+           <li><a href="contact.html">Contact Us</a></li>
+           <li><a href="#top">Back to Top ^ </a></li>
+         </ul>
+       </nav>
 
     </footer>
-
-    <a class="top-link" href="#Top" >Back to Top ^ </a>
 
   </body>
 </html>
