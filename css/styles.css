@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 /*=======================
 
   Universtal Styling
@@ -151,6 +152,14 @@ header nav {
   display: inline-block;
   position: absolute;
   left: 500px;
+}
+/*=====================
+
+Portfolio page styling
+
+=========================*/
+.photographs img {
+  width:395px;
 }
 
 
