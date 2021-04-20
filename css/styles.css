@@ -158,11 +158,19 @@ header nav {
 Portfolio page styling
 
 =========================*/
+
+
 .photographs img {
-  width:395px;
+  width:495px;
 }
 
+.cover-photos-graphic img {
+  width: 395px;
+}
 
+.cover-photos-web img {
+  width: 295px;
+}
 /*=====================
 
   Footer

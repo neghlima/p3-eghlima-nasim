@@ -6,6 +6,7 @@
 
     <!--Main CSS Stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
 
     <!--Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Lora:wght@700&display=swap" rel="stylesheet">
@@ -22,7 +23,7 @@
 
   </head>
 
-  <body id= "Top">
+  <body id="top">
     <header>
       <div class="logo-container">
         <a href="home.html">
@@ -72,31 +73,31 @@
         <p>All photographs taken by Nasim Eghlima </p>
 
         <div class="photographs">
-          <img src= "images/Pebble-beach2.jpg" alt="Pebble Beach2" title="Pebble Beach"/>
+          <a href="images/Pebble-beach2.jpg" data-lightbox="image-1" data-title="Pebble Beach, CA"><img src= "images/Pebble-beach2.jpg" alt="Pebble Beach2" title="Pebble Beach"/></a>
           </div>
         <div class="photographs">
-          <img src= "images/deers.jpg" alt="Deers" title="Deers"/>
+          <a href="images/deers.jpg" data-lightbox="image-1" data-title="Deers in Pebble Beach, CA"><img src= "images/deers.jpg" alt="Deers" title="Deers"/></a>
           </div>
         <div class="photographs">
-          <img src= "images/Pebble-beach.jpg" alt="Pebble Beach" title="Pebble Beach"/>
+          <a href="images/Pebble-beach.jpg" data-lightbox="image-1" data-title="Seal Rock Creek Beach, CA"><img src= "images/Pebble-beach.jpg" alt="Pebble Beach" title="Pebble Beach"/></a>
           </div>
         <div class="photographs">
-          <img src= "images/Abby-Bordeoux.jpg" alt="Bordeoux Abby" title="Bordeoux Abby"/>
+          <a href="images/Abby-Bordeoux.jpg" data-lightbox="image-1" data-title="Bordeaux Cathedral, France"><img src= "images/Abby-Bordeoux.jpg" alt="Bordeoux Abby" title="Bordeoux Abby"/></a></a>
           </div>
         <div class="photographs">
-          <img src= "images/Jardin-Park.jpg" alt="Jardin Park" title="Jardin Park"/>
+          <a href="images/Jardin-Park.jpg" data-lightbox="image-1" data-title="Jardin Public, Bordeaux, France"><img src= "images/Jardin-Park.jpg" alt="Jardin Park" title="Jardin Park"/></a>
           </div>
         <div class="photographs">
-          <img src= "images/Tamworth.jpg" alt="Tamworth" title="Tamworth"/>
+          <a href="images/Tamworth.jpg" data-lightbox="image-1" data-title="Tamworth, England"><img src= "images/Tamworth.jpg" alt="Tamworth" title="Tamworth"/></a>
           </div>
         <div class="photographs">
-          <img src= "images/Bordeoux.jpg" alt="Bordeoux" title="Bordeoux"/>
+          <a href="images/Bordeoux.jpg" data-lightbox="image-1" data-title="Place de la Bourse, Bordeaux, France"><img src= "images/Bordeoux.jpg" alt="Bordeoux" title="Bordeoux"/></a>
           </div>
         <div class="photographs">
-          <img src= "images/Carcasonne-2.jpg" alt="Carcasonne2" title="Carcasonne"/>
+          <a href="images/Carcasonne-2.jpg" data-lightbox="image-1" data-title="Carcassonne, France"><img src= "images/Carcasonne-2.jpg" alt="Carcasonne2" title="Carcasonne"/></a>
           </div>
         <div class="photographs">
-          <img src= "images/Carcasonne.jpg" alt="Carcasonne" title="Carcasonne"/>
+          <a href="images/Carcasonne.jpg" data-lightbox="image-1" data-title="Cite' de Carcasonne, France"><img src= "images/Carcasonne.jpg" alt="Carcasonne" title="Carcasonne"/></a>
           </div>
 
         </section>
@@ -104,10 +105,10 @@
           <h1>Graphic Design Projects:</h1>
           <p>Includes an electronic cookbook and non-profit annual report. </p>
 
-          <div class="cover-photos">
+          <div class="cover-photos-graphic">
             <img src= "images/Cookbook.png" alt="Cookbook" title="Cookbook"/>
             </div>
-          <div class="cover-photos">
+          <div class="cover-photos-graphic">
             <img src= "images/Annual-report.png" alt="Annual Report" title="Annual Report"/>
           </div>
           </section>
@@ -117,13 +118,13 @@
           <h1>Web Projects:</h1>
           <p>Includes UX (User experience) research papers, inquire for more information. </p>
 
-          <div class="cover-photos">
+          <div class="cover-photos-web">
             <img src= "images/UX-journal.png" alt="UX Journal" title="UX Journal"/>
             </div>
-          <div class="cover-photos">
+          <div class="cover-photos-web">
             <img src= "images/UF-final-report.png" alt="UF Report" title="UF Report"/>
           </div>
-          <div class="cover-photos">
+          <div class="cover-photos-web">
             <img src= "images/comp-user-research.png" alt="User Research" title="User Research"/>
           </div>
 
@@ -144,6 +145,6 @@
        </nav>
 
     </footer>
-
+    <script src="lightbox/src/js/lightbox.js"></script>
   </body>
 </html>
