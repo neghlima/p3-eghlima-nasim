@@ -171,6 +171,11 @@ Portfolio page styling
 .cover-photos-web img {
   width: 295px;
 }
+span.lb-caption {
+    font-size: 25px !important;
+    color: white;
+    font-family: 'Arimo';
+}
 /*=====================
 
   Footer
