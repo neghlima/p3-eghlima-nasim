@@ -11,20 +11,13 @@
   Universtal Styling
 
 =========================*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Lora", sans-serif;
-  padding: 10px 0;
-}
 
 h1 {
-    font-size: 32px;
-    text-align: left;
-    text-transform: uppercase;
+  font-size: 36px;
+  text-align: left;
+  text-transform:full-width;
+  font-family: "Arimo", sans-serif;
+  padding: 10px 0;
 }
 
 ul {
@@ -32,9 +25,15 @@ ul {
 }
 
 p {
-    font-family: "Arimo";
-    line-height: 26px;
-    margin: 15px 0;
+  font-family: "Arimo";
+  line-height: 26px;
+  margin: 15px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+
 }
 
 /*=====================
@@ -158,23 +157,139 @@ header nav {
 Portfolio page styling
 
 =========================*/
+.portfolio-photo {
+  width: 250px;
+  display: inline-block;
+}
+.portfolio-photo img {
+  padding: 80px 20px;
+  width: 375px;
+  margin: 97px 48px -30px 79px;
+}
+.portfolio-button {
+  box-shadow: 0 -1px 10px;
+  background: #eeeeeebf;
+  padding: 20px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  color: #36008da6;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: inline-block;
+  position: relative;
+  right: 75px;
+  top: 20px;
+}
+.photo-gallery {
+  padding: 100px 100px 20px;
+}
 
-
+.photographs {
+  display:inline-block;
+}
 .photographs img {
-  width:495px;
+  width: 350px;
+  height: 250px;
+  margin: 29px 15px 12px 17px;
+  padding: 10px 0;
 }
+.graphic-design {
+  padding: 100px 100px 20px;
 
+}
+.cover-photos-graphic {
+  display: inline-block;
+}
 .cover-photos-graphic img {
-  width: 395px;
+  width: 300px;
+  height: 400px;
+  margin: 29px 79px 12px 17px;
+  padding: 10px 0;
 }
 
-.cover-photos-web img {
-  width: 295px;
+.cover-photos-graphic img:hover {
+  background-color: #36008d6e;
+  transition: .3s;
 }
+.web-projects {
+  padding: 100px 100px 20px;
+}
+.cover-photos-web {
+  display: inline-block;
+}
+.cover-photos-web img {
+  width: 255px;
+  height: 225px;
+  margin: 29px 79px 12px 17px;
+  padding: 10px 0;
+}
+.cover-photos-web img:hover {
+  background-color: #36008d6e;
+  transition: .3s;
+}
+
 span.lb-caption {
-    font-size: 25px !important;
-    color: white;
-    font-family: 'Arimo';
+  font-size: 25px !important;
+  color: white;
+  font-family: 'Arimo';
+}
+
+/*=====================
+
+  Contact page
+
+=========================*/
+.contact {
+  margin: 0 100px;
+}
+.text-box {
+  position: relative;
+  text-align: center;
+  top: 222px;
+  left: 17px;
+  font-size: 50px;
+  text-transform: uppercase;
+  border: 1px solid #8a8a8a;
+  padding: 57px 182px;
+  border-radius: 2px;
+  color: #36008d6e;
+
+}
+.contact-section {
+  margin-left: 133px;
+  padding: 0 50px;
+}
+.contact-icon {
+  display: inline-block;
+  margin-top: 250px;
+  margin-left: 62px;
+}
+
+.contact-icon img {
+  width: 158px;
+  margin-left: 75px;
+  padding: 10px;
+}
+
+
+.contact-button {
+  box-shadow: 0 -1px 10px;
+  padding: 25px 46px;
+  margin: -60px;
+  border-radius: 40px;
+  text-decoration: none;
+  background: #36008d6e;
+  text-transform: uppercase;
+  font-weight: bolder;
+  display: inline-block;
+  position: relative;
+  right: 75px;
+  top: 20px;
+  color: white;
+}
+
+.contact-button a {
+  text-decoration: none;
 }
 /*=====================
 
