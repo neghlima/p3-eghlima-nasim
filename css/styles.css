@@ -31,7 +31,7 @@ p {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 20px 150px 180px 150px;
   max-width: 900px;
 
 }
@@ -47,6 +47,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 99999;
+    top:0;
 }
 
 header nav ul li {
@@ -99,6 +100,8 @@ header nav {
     width: 100%;
     object-fit: cover;
     position: relative;
+    height: 100vh;
+    object-position: left;
 }
 
 
@@ -119,6 +122,8 @@ header nav {
     width: 100%;
     object-fit: cover;
     position: relative;
+    max-height: 600px;
+    object-position: 0 -130px;
 }
 
 .video-button {
@@ -132,8 +137,8 @@ header nav {
   font-weight: bolder;
   display: inline-block;
   position: absolute;
-  top: 600px;
-  right: 40px;
+  top: 440px;
+  right: 118px;
 }
 .about-me {
   padding: 20px;
@@ -143,14 +148,17 @@ header nav {
 .resume-button {
   box-shadow: 0 -1px 10px;
   background: #85f3d9b8;
-  padding: 20px 20px;
+  padding: 20px 57px;
   border-radius: 40px;
-  text-decoration: none;
   text-transform: uppercase;
   font-weight: bolder;
   display: inline-block;
   position: absolute;
-  left: 500px;
+  left: 352px;
+}
+.resume-button a {
+  text-decoration: none;
+  color: black;
 }
 /*=====================
 
@@ -183,7 +191,7 @@ Portfolio page styling
   text-decoration: none;
 }
 .photo-gallery {
-  padding: 100px 100px 20px;
+  padding: 115px 100px 40px;
 }
 
 .photographs {
@@ -192,11 +200,11 @@ Portfolio page styling
 .photographs img {
   width: 350px;
   height: 250px;
-  margin: 29px 15px 12px 17px;
+  margin: 29px 15px 12px 0;
   padding: 10px 0;
 }
 .graphic-design {
-  padding: 100px 100px 20px;
+  padding: 36px 100px 40px;
 
 }
 .cover-photos-graphic {
@@ -205,7 +213,7 @@ Portfolio page styling
 .cover-photos-graphic img {
   width: 300px;
   height: 400px;
-  margin: 29px 79px 12px 17px;
+  margin: 29px 79px 12px 0;
   padding: 10px 0;
 }
 
@@ -214,7 +222,7 @@ Portfolio page styling
   transition: .3s;
 }
 .web-projects {
-  padding: 100px 100px 20px;
+  padding: 46px 100px 68px;
 }
 .cover-photos-web {
   display: inline-block;
@@ -222,7 +230,7 @@ Portfolio page styling
 .cover-photos-web img {
   width: 255px;
   height: 225px;
-  margin: 29px 79px 12px 17px;
+  margin: 29px 79px 12px 0;
   padding: 10px 0;
 }
 .cover-photos-web img:hover {
@@ -242,7 +250,7 @@ span.lb-caption {
 
 =========================*/
 .contact {
-  margin: 0 100px;
+  margin: 10px 100px 150px;
 }
 .text-box {
   position: relative;
@@ -310,7 +318,6 @@ footer {
   padding: 30px;
   box-sizing: border-box;
   position: relative;
-  top:800px;
 }
 
 footer a{
@@ -333,6 +340,10 @@ footer a:hover {
   display: inline-block;
   width: 19%;
   font-size: 25px;
+}
+
+.footer-icon a {
+  font-size: 36px;
 }
 
 footer nav {
