@@ -26,13 +26,15 @@ ul {
 
 p {
   font-family: "Arimo";
-  line-height: 26px;
+  line-height: 36px;
   margin: 15px 0;
 }
 
 .container {
   margin: 20px 150px 180px 150px;
-  max-width: 900px;
+  max-width: 650px;
+  max-height: 650px;
+  padding: 0 40px;
 
 }
 
@@ -95,6 +97,9 @@ header nav {
   Home Page Styling
 
 =========================*/
+.home {
+overflow: hidden;
+}
 
 .hero-image {
     width: 100%;
@@ -119,17 +124,15 @@ header nav {
 =========================*/
 
 .video-image {
-    width: 100%;
-    object-fit: cover;
-    position: relative;
-    max-height: 600px;
-    object-position: 0 -130px;
+  width: 800px;
+  height: 900px;
+  object-fit: cover;
 }
 
 .video-button {
   box-shadow: 0 -1px 10px;
   background: #eeeeeebf;
-  padding: 20px 20px;
+  padding: 14px 45px;
   border-radius: 40px;
   text-decoration: none;
   color: #36008da6;
@@ -137,13 +140,17 @@ header nav {
   font-weight: bolder;
   display: inline-block;
   position: absolute;
-  top: 440px;
-  right: 118px;
-}
+  top: 700px;
+  right: 1000px;
+  }
+
 .about-me {
   padding: 20px;
-  margin: 20px;
+  margin: 40px;
   width: 100%;
+  position: relative;
+  bottom: 800px;
+  left: 600px;
 }
 .resume-button {
   box-shadow: 0 -1px 10px;
@@ -154,7 +161,8 @@ header nav {
   font-weight: bolder;
   display: inline-block;
   position: absolute;
-  left: 352px;
+  right: 94px;
+  bottom: 39px;
 }
 .resume-button a {
   text-decoration: none;
