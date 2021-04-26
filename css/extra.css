@@ -39,7 +39,7 @@ header nav a {
   transition: .3s;
   }
 
-  .logo-container {
+.logo-container {
     width: 30%;
     display: inline-block;
 }
@@ -53,13 +53,13 @@ header nav {
 }
 
 .logo-container,
-header nav {
+ header nav {
 
   vertical-align: right;
 }
 /*=====================
 
-  Contact Us Page Styling
+  Extra Page Form Styling
 
 =========================*/
 .container {
@@ -120,6 +120,33 @@ textarea {
 label {
   font-weight: bold;
 }
+
+details summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+  position: relative;
+  left: 184px;
+}
+
+.summary {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+
+.logo {
+  position: absolute;
+  opacity: 1;
+  width: 100px;
+  animation: wind 15s forwards infinite linear;
+}
+
+
 /*=====================
 
   Footer
@@ -179,4 +206,13 @@ footer nav ul li {
   display: inline-block;
   padding: 0 15px;
   font-family: "arimo", sans-serif;
+}
+
+@keyframes wind {
+  from {
+    transform: translateX(20px);
+  }
+  to {
+    transform: translateX(1000px);
+  }
 }
