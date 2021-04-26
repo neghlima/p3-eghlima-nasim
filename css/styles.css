@@ -19,7 +19,12 @@ h1 {
   font-family: "Arimo", sans-serif;
   padding: 10px 0;
 }
-
+h2 {
+  font-family: 'Lora';
+  font-size: 26px;
+  margin: 46px 0px;
+  color: #36008d6e;
+}
 ul {
   font-family: "Lora", serif;
 }
@@ -30,13 +35,7 @@ p {
   margin: 15px 0;
 }
 
-.container {
-  margin: 20px 150px 180px 150px;
-  max-width: 650px;
-  max-height: 650px;
-  padding: 0 40px;
 
-}
 
 /*=====================
 
@@ -122,11 +121,15 @@ overflow: hidden;
   About us page styling
 
 =========================*/
-
+.video {
+  width: 45%;
+  display: inline-block;
+}
 .video-image {
   width: 800px;
   height: 900px;
   object-fit: cover;
+  margin-bottom: -4px;
 }
 
 .video-button {
@@ -143,14 +146,17 @@ overflow: hidden;
   top: 700px;
   right: 1000px;
   }
-
+.about {
+  width: 45%;
+  display: inline-block;
+  padding: 0 156px 732px;
+  }
 .about-me {
-  padding: 20px;
+  max-width: 550px;
+  padding: 10px;
   margin: 40px;
   width: 100%;
-  position: relative;
-  bottom: 800px;
-  left: 600px;
+  position: absolute;
 }
 .resume-button {
   box-shadow: 0 -1px 10px;
