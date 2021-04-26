@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*=====================
+
+  Header
+
+=========================*/
+
+header {
+  background: white;
+  position: relative;
+  width: 100%;
+  z-index: 99999;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 15px;
+  font-family: "lora", sans-serif;
+}
+
+header nav a:hover{
+  background-color: #36008d6e;
+  transition: .3s;
+}
+
+header nav a {
+  padding: 15px;
+  text-decoration: none;
+  background: #85f3d999;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  border-radius: 5px;
+  transition: .3s;
+  }
+
+  .logo-container {
+    width: 30%;
+    display: inline-block;
+}
+
+header nav {
+    width: 68%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.logo-container,
+header nav {
+
+  vertical-align: right;
+}
+/*=====================
+
+  Contact Us Page Styling
+
+=========================*/
+.container {
+  max-width: 900px;
+  margin: 60px auto 180px;
+  text-align: center;
+  padding: 40px;
+}
+body {
+  background: #36008e14;
+
+}
+.contact-form {
+  background: #85f3d999;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 4px;
+  color: white;
+  font-family: "arimo", sans-serif;
+  margin: 20px auto;
+  text-align: left;
+}
+::selection {
+  background: #36008d6e;
+  color: #85f3d999;
+
+}
+p::first-letter {
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: #000000;
+  font-variant: diagonal-fractions;
+}
+.label_input_wrap {
+  display: block;
+}
+
+.submit input {
+  background: #36008d6e;
+  color: white;
+  padding: 5px 20px;
+}
+input {
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.input-section {
+  margin-bottom: 10px;
+}
+textarea {
+  font-family: "arimo", sans-serif;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+
+label {
+  font-weight: bold;
+}
+/*=====================
+
+  Footer
+
+=========================*/
+footer {
+  background: #36008d6e;
+  display: inline-block;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+footer a{
+  font-size: 24px;
+  margin: 0 5px;
+  transition: .3s;
+  text-decoration: none;
+  color: #85f3d9de;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer a:hover {
+  color: white;
+  transition: .3s;
+}
+
+
+.footer-icon {
+  display: inline-block;
+  width: 19%;
+  font-size: 25px;
+}
+
+.footer-icon a {
+  font-size: 36px;
+}
+
+footer nav {
+    width: 80%;
+    display: inline-block;
+    text-align: right;
+}
+footer nav a {
+  color: white;
+  transition: .3s;
+}
+
+footer nav a:hover {
+  color: #85f3d999;
+  transition: .3s;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding: 0 15px;
+  font-family: "arimo", sans-serif;
+}
