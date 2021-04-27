@@ -124,15 +124,38 @@ overflow: hidden;
 .video {
   width: 45%;
   display: inline-block;
+  position: relative;
 }
 .video-image {
   width: 800px;
   height: 900px;
   object-fit: cover;
   margin-bottom: -4px;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 .video-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  }
+
+.video:hover .video-image {
+  opacity: 0.5;
+}
+
+.video:hover .video-button {
+  opacity: 1;
+}
+.text {
   box-shadow: 0 -1px 10px;
   background: #eeeeeebf;
   padding: 14px 45px;
@@ -141,11 +164,8 @@ overflow: hidden;
   color: #36008da6;
   text-transform: uppercase;
   font-weight: bolder;
-  display: inline-block;
-  position: absolute;
-  top: 700px;
-  right: 1000px;
-  }
+}
+
 .about {
   width: 45%;
   display: inline-block;
