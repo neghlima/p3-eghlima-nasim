@@ -18,7 +18,7 @@
     <script src="https://kit.fontawesome.com/b4f2b5b20f.js" crossorigin="anonymous"></script>
     <!--scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="scripts/scripts.js" type="text/javascript"></script>
+
 
  </head>
 
@@ -41,18 +41,17 @@
 
     <main>
     <div class="video">
+
+      <div class="video-button">
+        <div id="watchVideo"><button class="text" onclick="playVid()">Watch Video</button></div>
+      </div>
       <video class="video-image" width="320" height="240"  controls autoplay poster="images/Video-image.jpg">
       <source src="about-video.files/html5video/about-video.m4v" type="video/mp4" />
       <source src="about-video.files/html5video/about-video.ogv" type="video/ogg" />
       Your browser does not support the video tag.
       </video>
+     </div>
 
-      <div class="video-button">
-        <div class="text"> Watch Video</div>
-      </div>
-    </div>
-
-    </div>
 
       <div class="about">
         <section class="about-me">
@@ -84,5 +83,6 @@
 
     </footer>
     <script src="lightbox/src/js/lightbox.js"></script>
+    <script src="scripts/scripts.js" type="text/javascript"></script>
   </body>
 </html>

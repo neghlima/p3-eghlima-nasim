@@ -140,7 +140,7 @@ overflow: hidden;
 .video-button {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 85%;
   transition: .5s ease;
   opacity: 0;
   transform: translate(-50%, -50%);
@@ -326,7 +326,7 @@ span.lb-caption {
   font-weight: bolder;
   display: inline-block;
   position: relative;
-  right: 115px;
+  right: 123px;
   top: 20px;
   color: white;
 }
