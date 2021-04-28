@@ -85,11 +85,6 @@ header nav {
     display: inline-block;
 }
 
-.logo-container,
-header nav {
-
-  vertical-align: right;
-}
 
 /*=====================
 
@@ -144,7 +139,6 @@ overflow: hidden;
   transition: .5s ease;
   opacity: 0;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   text-align: center;
   }
 
@@ -284,7 +278,7 @@ span.lb-caption {
 
 =========================*/
 .contact {
-  margin: 10px 100px 150px;
+  margin: 10px 19px 150px 0;
 }
 .text-box {
   position: relative;
@@ -300,7 +294,7 @@ span.lb-caption {
 
 }
 .contact-section {
-  margin-left: 133px;
+  margin-left: 15px;
   padding: 0 50px;
 }
 .contact-icon {
@@ -309,9 +303,13 @@ span.lb-caption {
   margin-left: 62px;
 }
 
+.contact-icon.tel img {
+  right: 36px;
+}
+
 .contact-icon img {
   width: 158px;
-  margin-left: 75px;
+  margin-left: 93px;
   padding: 10px;
 }
 
@@ -331,7 +329,7 @@ span.lb-caption {
   color: white;
 }
 .contact-button.tel {
-  right: 103px;
+  margin-left: -37px;
 }
 
 .contact-button a {
