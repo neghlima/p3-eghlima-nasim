@@ -135,7 +135,7 @@ details summary {
 }
 
 .logo {
-  position: absolute;
+  position: relative;
   opacity: 1;
   width: 100px;
   animation: wind 15s forwards infinite linear;
