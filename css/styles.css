@@ -19,12 +19,14 @@ h1 {
   font-family: "Arimo", sans-serif;
   padding: 10px 0;
 }
+
 h2 {
   font-family: 'Lora';
   font-size: 26px;
   margin: 46px 0px;
   color: #36008d6e;
 }
+
 ul {
   font-family: "Lora", serif;
 }
@@ -36,7 +38,6 @@ p {
 }
 
 
-
 /*=====================
 
   Header
@@ -44,21 +45,21 @@ p {
 =========================*/
 
 header {
-    background: white;
-    position: fixed;
-    width: 100%;
-    z-index: 99999;
-    top:0;
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  top:0;
 }
 
 header nav ul li {
-    display: inline-block;
-    padding: 0 15px;
+  display: inline-block;
+  padding: 0 15px;
 }
 
 header nav a:hover{
-    background-color: #36008d6e;
-    transition: .3s;
+  background-color: #36008d6e;
+  transition: .3s;
 }
 
 header nav a {
@@ -81,8 +82,8 @@ header nav {
   margin-top: 50px;
   }
 .logo-container {
-    width: 30%;
-    display: inline-block;
+  width: 30%;
+  display: inline-block;
 }
 
 
@@ -92,15 +93,15 @@ header nav {
 
 =========================*/
 .home {
-overflow: hidden;
+  overflow: hidden;
 }
 
 .hero-image {
-    width: 100%;
-    object-fit: cover;
-    position: relative;
-    height: 100vh;
-    object-position: left;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  height: 100vh;
+  object-position: left;
 }
 
 
@@ -165,6 +166,7 @@ overflow: hidden;
   display: inline-block;
   padding: 0 156px 732px;
   }
+
 .about-me {
   max-width: 550px;
   padding: 10px;
@@ -172,6 +174,7 @@ overflow: hidden;
   width: 100%;
   position: absolute;
 }
+
 .resume-button {
   box-shadow: 0 -1px 10px;
   background: #85f3d9b8;
@@ -184,10 +187,13 @@ overflow: hidden;
   right: 94px;
   bottom: 39px;
 }
+
 .resume-button a {
   text-decoration: none;
   color: black;
 }
+
+
 /*=====================
 
 Portfolio page styling
@@ -197,11 +203,13 @@ Portfolio page styling
   width: 250px;
   display: inline-block;
 }
+
 .portfolio-photo img {
   padding: 80px 20px;
   width: 375px;
   margin: 97px 48px -30px 79px;
 }
+
 .portfolio-button {
   box-shadow: 0 -1px 10px;
   background: #eeeeeebf;
@@ -215,9 +223,11 @@ Portfolio page styling
   right: 75px;
   top: 20px;
 }
+
 .portfolio-button a {
   text-decoration: none;
 }
+
 .photo-gallery {
   padding: 115px 100px 40px;
 }
@@ -367,7 +377,6 @@ footer a:hover {
   transition: .3s;
 }
 
-
 .footer-icon {
   display: inline-block;
   width: 19%;
@@ -379,9 +388,9 @@ footer a:hover {
 }
 
 footer nav {
-    width: 80%;
-    display: inline-block;
-    text-align: right;
+  width: 80%;
+  display: inline-block;
+  text-align: right;
 }
 footer nav a {
   color: white;
